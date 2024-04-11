@@ -47,15 +47,15 @@ for (let i = 0; i < listMembers.length; i++) {
     console.log(listMembers[i].name);
     console.log(listMembers[i].profession);
     console.log(listMembers[i].photo);
-    
+
 //////////////////////////////////////////////////////
 
     //stampo in pagina il risultato 
     const curListMembers = listMembers[i];
     team.innerHTML += ` 
         <div class="card">
-            <h3>${curListMembers.name}</h3>
-            <h3>${curListMembers.profession}</h3>
             <img src="${curListMembers.photo}" alt="">
+            <h2>${curListMembers.name}</h2>
+            <p>${curListMembers.profession}<p>
         </div> `
 }
