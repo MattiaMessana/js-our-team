@@ -54,7 +54,7 @@ for (let i = 0; i < listMembers.length; i++) {
     const curListMembers = listMembers[i];
     team.innerHTML += ` 
         <div class="card">
-            <img src="${curListMembers.photo}" alt="">
+            <img src="./img/${curListMembers.photo}" alt="">
             <h2>${curListMembers.name}</h2>
             <p>${curListMembers.profession}<p>
         </div> `
